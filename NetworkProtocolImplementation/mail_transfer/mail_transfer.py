@@ -22,7 +22,7 @@ def mail_transfer():
     # Send the message via our own SMTP server.
     s = smtplib.SMTP('smtp.qq.com')
 
-    s.login('1476377353@qq.com', 'tbqokxospxetbagf')
+    s.login('1476377353@qq.com', '*******')
     s.send_message(msg)
     s.quit()
 
